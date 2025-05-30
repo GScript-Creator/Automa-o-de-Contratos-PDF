@@ -1,1 +1,1 @@
-# Automa-o-de-Geocodifica-o
+# Desenvolvi uma automação que lê um arquivo Excel contendo uma lista de endereços e, para cada um deles, preenche automaticamente as coordenadas aproximadas de latitude e longitude ao lado, utilizando a biblioteca geopy. Quando algum endereço não possui dados geográficos disponíveis, os campos são deixados em branco para garantir a precisão dos resultados. Essa solução facilitou o processamento e enriquecimento dos dados de localização, aprimorando a qualidade das informações de forma prática e eficiente.
