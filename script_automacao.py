@@ -5,7 +5,7 @@ from docx import Document
 from docx.shared import Pt
 import zipfile
 import re
-import pythoncom    #OBS: Professor estou usando essa importação pois no meu pc o ambiente COM não foi inicializado, precisei fazer isso para que o docx2pdf consiga converter o arquivo .docx em .pdf. Para resolver, eu precisei adicionar o comando "pythoncom.CoInitialize()" antes de chamar a função convert(). Pq no meu pc estava dando erro
+import pythoncom 
 from docx2pdf import convert
 
 st.set_page_config(page_title="Automatização Contratos")
